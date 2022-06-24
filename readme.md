@@ -1,9 +1,7 @@
 # [zetvue.github.io](https://zetvue.github.io)
 This is just a repo with all of my site files. Nothing much to see here, except laughing at my janky code.
 
-## For me
-
-Things to do:
+<!-- Things to do:
 
 Implement https://www.castingcall.club/zetvue and https://zetvue.newgrounds.com/ into the contact form at some point
 
@@ -57,3 +55,4 @@ Other: DependsContact
 Twitter: @Zetvue
 Discord: Zetvue#9664
 `
+-->
