@@ -102,22 +102,9 @@ h6 {
     padding-top: 20px;
 }
 
-.introSVG {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 20px;
-}
-
-.introEmail {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .introSVG img {
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .introMe {
@@ -138,6 +125,22 @@ h2 {
     font-weight: 400;
     font-family: Lexend Mega;
     letter-spacing: -1px;
+}
+
+.introduction h2 {
+    color: #B1A7A6;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: Lexend Mega;
+    letter-spacing: -1px;
+    text-align: right;
+}
+
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* alternatively, `auto auto` */
+    gap: 20px;
+    align-content: center;
 }
 
 h3 {
