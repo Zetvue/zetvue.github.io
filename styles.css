@@ -95,6 +95,16 @@ h6 {
     font-weight: 200;
     padding-bottom: 20px;
     color: #e5383b7c;
+    padding-top: 20px;
+}
+
+.nopaddingh6 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 200;
+    padding-bottom: 20px;
+    color: #e5383b7c;
 }
 
 .introMedia {
@@ -106,6 +116,12 @@ h6 {
     align-items: center;
     justify-content: center;
     padding-bottom: 20px;
+}
+
+.introEmail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .introSVG img {
@@ -133,6 +149,36 @@ h2 {
     letter-spacing: -1px;
 }
 
+h3 {
+    color: #B1A7A6;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: Lexend Mega;
+    padding-top: 20px;
+    letter-spacing: -3px;
+}
+
+h3 strong {
+    font-family: Lexend Mega;
+    color: #B1A7A6;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Lexend Mega;
+    padding-top: 20px;
+    letter-spacing: -3px;
+}
+
+h3 sub {
+    font-family: Lexend Mega;
+    color: #B1A7A6;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: Lexend Mega;
+    padding-top: 20px;
+    letter-spacing: -3px;
+}
 /* Portfolio */
 .h2portfolio a:link,
 .h2portfolio a:visited,
