@@ -1,2 +1,0 @@
-# Use .phtml files as .php files
-AddType application/x-httpd-php .php .phtml
