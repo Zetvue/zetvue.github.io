@@ -78,12 +78,6 @@ ul {
     color: #E5383B;
 }
 
-.other {
-    padding: 50px;
-    padding-top: 80px;
-    color: #E5383B;
-}
-
 h1 {
     color: #ffffff;
     text-align: center;
@@ -133,7 +127,7 @@ h2 {
     letter-spacing: -1px;
 }
 
-.introduction h2 {
+.introduction .contacts h2 {
     color: #B1A7A6;
     font-size: 30px;
     font-weight: 400;
