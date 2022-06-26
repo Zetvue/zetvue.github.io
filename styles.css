@@ -136,6 +136,12 @@ h2 {
     text-align: right;
 }
 
+.introSVG,
+.introEmail {
+    display: flex;
+    align-items: center;
+}
+
 .contacts {
     display: grid;
     grid-template-columns: 1fr 1fr; /* alternatively, `auto auto` */
