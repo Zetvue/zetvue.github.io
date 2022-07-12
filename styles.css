@@ -15,7 +15,7 @@ body {
 #nav {
     background-color: #E5383B;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -246,5 +246,5 @@ h3 sub {
 
 /* Other */
 .navCurrentlyOn {
-    font-weight: 700;
+    font-weight: 600;
 }
