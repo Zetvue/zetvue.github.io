@@ -1,0 +1,165 @@
+/* Blacks | 0B090A 161A1D | Reds | 660708 A4161A BA181B E5383B | Whites | B1A7A6 D3D3D3 F5F3F4 FFFFFF */
+/* All */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #0B090A;
+  font-family: Lexend, system-ui, sans-serif;
+  margin-top: 10px;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #E5383B;
+}
+a:hover {
+    filter: brightness(150%);  
+}
+/* Top of Page */
+.ZetvueLogo{
+  text-align:center;
+}
+nav {
+  margin-top: 10px;
+  background-color: #E5383B;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  font-family: Lexend Exa;
+  letter-spacing: -1px;
+}
+nav .CurrentlyOn {
+  font-weight: 600;
+}
+nav a:link, nav a:hover, nav a:visited, nav a:active {
+  text-decoration: none;
+  color: #0B090A;
+}
+nav a:hover {
+  filter: none;
+  text-decoration:underline;
+}
+.NavbarLinks {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 15px
+}
+.NavbarLinks li{
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+}
+/*Bottom of Page*/
+footer {
+  margin-top: 10px;
+  padding: 15px;
+  background-color: #E5383B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.FooterText {
+  font-family: Lexend Exa;
+  letter-spacing: -2px;
+  color: #0B090A;
+}
+/* Body Text */
+h1 {
+  color: #ffffff;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  font-family: Lexend Exa;
+  letter-spacing: -3px;
+}
+h2 {
+  color: #B1A7A6;
+  padding-bottom: 15px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Lexend Mega;
+  letter-spacing: -1px;
+}
+.HeaderText {
+  font-size: 25px;
+  text-align: center;
+  color: #e5383b;
+  padding-bottom: 15px;
+}
+.BodyText{
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  color: #e4e4e4
+}
+.body {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+/* Home */
+.Media {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-content: center;
+}
+.svg, .email {
+  display: flex;
+  align-items: center;
+}
+.svg img {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.h1Padding {
+  padding-top: 10px;
+}
+.body .Media h2 {
+  color: #B1A7A6;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Lexend Mega;
+  letter-spacing: -1px;
+  text-align: right;
+  padding-bottom: 0;
+}
+/* Portfolio */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5px;
+}
+.images img {
+  border-radius: 15px;
+  border: 5px solid #161A1D
+}
+/* Font */
+@font-face {
+  font-family: Lexend;
+  src: url(assets/fonts/Lexend.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lexend Exa;
+  src: url(assets/fonts/Lexend_Exa.ttf);
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Lexend Mega;
+  src: url(assets/fonts/Lexend_Mega.ttf);
+  font-display: swap;
+}
