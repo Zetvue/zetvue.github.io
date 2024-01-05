@@ -1,0 +1,40 @@
+body {
+  background-color: #E5383B;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+h1 {
+  font-size: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  padding:0;
+  font-family: Lexend Exa;
+  font-weight: 700;
+  color: #0B090A;
+  letter-spacing: -20px;
+}
+p {
+    font-size: 30px;
+    font-weight: 200;
+    font-family: Lexend;
+    text-align: center;
+    color: #0B090A;
+    margin:0;
+    padding:0;
+  }
+a:link, a:hover, a:visited, a:active {
+    text-decoration: underline;
+    color: #0B090A;
+  }
+  
