@@ -1,4 +1,8 @@
-TODO: remake commissions page
+TODO: 
+
+redo descriptions and general structuring of plugins list
+
+remake commissions page
 info:
 
 LOGOS: $10
