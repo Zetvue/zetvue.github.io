@@ -1,7 +1,7 @@
 TODO: 
 
 redo descriptions and general structuring of plugins list
-
+add a general art thing for my portfolio
 remake commissions page
 info:
 
